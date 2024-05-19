@@ -74,9 +74,17 @@ a {
 }
 
 .rotate-neg-40 {
-  transform: rotate(40deg);
-
+  transform: rotate(20deg);
 }
+
+@media screen and (min-width: 1200px) {
+  
+  .rotate-neg-40 {
+    transform: rotate(40deg);
+  }
+
+ }
+
 
 .img-border {
   border: 10px solid #000;
