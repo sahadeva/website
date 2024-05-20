@@ -11,9 +11,16 @@ h1, h2, h3, h4, h5 {
   font-weight: 900;
 }
 
-h1 { font-size: 130px; }
+h1 { font-size: 100px; }
+h2 { font-size: 45px; }
+h3 { font-size: 30px;}
 
-@media screen and (min-width: 768px) { h1 { font-size: 225px; } }
+@media screen and (min-width: 768px) { 
+  h1 { font-size: 225px; }
+  h2 { font-size: 65px; }
+  h3 { font-size: 35px;}
+
+}
 @media screen and (min-width: 992px) { h1 { font-size: 265px; } }
 @media screen and (min-width: 1200px) { h1 { font-size: 305px; } }
 @media screen and (min-width: 1400px) { h1 { font-size: 345px; } 
@@ -22,14 +29,7 @@ h1 { font-size: 130px; }
   }
 }
 
-h2 {
-  font-size: 65px;
-}
 
-h3 {
-  font-size: 35px;
-
-}
 
 .roboto-flex-extra, h1, h2, h3, h4, h5 {
   font-family: "Roboto Flex", sans-serif;
