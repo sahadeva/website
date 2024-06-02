@@ -29,7 +29,10 @@ h3 { font-size: 30px;}
   }
 }
 
-
+.fix-overflow {
+  overflow-x: clip;
+  z-index: 1000;
+}
 
 .roboto-flex-extra, h1, h2, h3, h4, h5 {
   font-family: "Roboto Flex", sans-serif;
